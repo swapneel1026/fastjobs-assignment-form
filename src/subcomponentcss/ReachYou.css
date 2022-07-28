@@ -1,0 +1,145 @@
+.RYonetwoThree {
+  display: flex;
+  position: relative;
+  left: 3rem;
+}
+.RYone,
+.RYtwo {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6270f2 0%, #6c7cff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.RYthree {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+span {
+  color: #c4c4c4;
+}
+.ReachYou-container > p {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6776ff;
+  position: relative;
+  left: 3rem;
+}
+.heading-title {
+  position: relative;
+  left: 3rem;
+}
+.ReachYou-container > input {
+  position: relative;
+  left: 3rem;
+  width: 30rem;
+  height: 4rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #1a1a1a;
+}
+.ReachYou-container > input::placeholder {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+  left: 1.5rem;
+  top: -0.3rem;
+  color: #1a1a1a;
+  opacity: 0.5;
+}
+.cityOptions {
+  position: relative;
+  height: 4rem;
+  width: 30rem;
+  left: 3rem;
+  top: 0rem;
+  background: #f4f4f5;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3),
+    -1px -1px 2px rgba(183, 183, 184, 0.5),
+    inset -1px 1px 2px rgba(183, 183, 184, 0.2),
+    inset 1px -1px 2px rgba(183, 183, 184, 0.2),
+    inset -1px -1px 2px rgba(255, 255, 255, 0.9),
+    inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ReachYou-container > div > select {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+  top: -0.3rem;
+  color: #1a1a1a;
+  opacity: 0.5;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+.topcities-heading {
+  position: relative;
+  left: 3rem;
+  font-weight: 500;
+}
+.topcities {
+  width: max-content;
+  height: 11rem;
+  position: relative;
+  left: 3rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1.5rem;
+  row-gap: 1rem;
+
+  /* border: 1px solid blue; */
+}
+.topcity {
+  height: 4rem;
+  /* border: 1px solid red; */
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  padding: 0rem 1rem;
+  background: #ffffff;
+  box-shadow: -5px 5px 10px rgba(214, 213, 218, 0.2),
+    5px -5px 10px rgba(214, 213, 218, 0.2),
+    5px 5px 13px rgba(214, 213, 218, 0.9),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3),
+    inset -1px -1px 2px rgba(214, 213, 218, 0.5);
+  border-radius: 10px;
+}
+.topcity > p {
+  /* width: 15.6rem; */
+
+  height: 2rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+
+  color: #6776ff;
+}

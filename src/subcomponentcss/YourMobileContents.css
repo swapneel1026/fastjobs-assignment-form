@@ -1,0 +1,95 @@
+.mobileHeading {
+  position: relative;
+  width: 26.4rem;
+  height: 3.6rem;
+  left: 2rem;
+  top: 1rem;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 3.6rem;
+  display: flex;
+  align-items: center;
+  color: #1a1a1a;
+}
+.mobileInput {
+  position: relative;
+  height: 4rem;
+  width: 29rem;
+  left: 2rem;
+  top: 0rem;
+  background: #f4f4f5;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3),
+    -1px -1px 2px rgba(183, 183, 184, 0.5),
+    inset -1px 1px 2px rgba(183, 183, 184, 0.2),
+    inset 1px -1px 2px rgba(183, 183, 184, 0.2),
+    inset -1px -1px 2px rgba(255, 255, 255, 0.9),
+    inset 1px 1px 3px rgba(183, 183, 184, 0.1);
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+
+  /* border: 1px solid green; */
+}
+.mobileInput-select {
+  /* border: 1px solid green; */
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  text-align: center;
+  background: #f4f4f5;
+  width: 40%;
+  height: 100%;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+.mobileInputNumber {
+  width: 60%;
+  height: 100%;
+  box-shadow: none;
+  font-size: 2rem;
+  background: #f4f4f5;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+.checkboxAndPara {
+  width: 30.5rem;
+  height: 6rem;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  left: 2rem;
+  top: 0.5rem;
+  /* border: 1px solid red; */
+}
+.checkboxAndPara > input {
+  position: relative;
+  top: -1.6rem;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  background: #f4f4f5;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3),
+    -1px -1px 2px rgba(183, 183, 184, 0.5),
+    inset -1px 1px 2px rgba(183, 183, 184, 0.2),
+    inset 1px -1px 2px rgba(183, 183, 184, 0.2),
+    inset -1px -1px 2px rgba(255, 255, 255, 0.9),
+    inset 1px 1px 3px rgba(183, 183, 184, 0.9);
+  border: none;
+  outline: none;
+}
+
+.checkboxAndPara > p {
+  /* font-family: Poppins; */
+  position: relative;
+  left: 0.5rem;
+  font-style: normal;
+  font-size: 1.4rem;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  width: 27.9rem;
+  /* border: 1px solid gold; */
+}

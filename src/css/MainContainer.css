@@ -1,0 +1,75 @@
+.MainContainer {
+  width: 41.4rem;
+  height: 73.6rem;
+  /* border: 1px solid grey; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.MainContainer-part1 {
+  /* border: 1px solid red; */
+  height: 12%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.MainContainer-part2 {
+  /* border: 1px solid blue; */
+  height: 63%;
+  width: 100%;
+  position: relative;
+}
+.MainContainer-part3 {
+  /* border: 1px solid green; */
+  height: 25%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.MainContainer-part1-NextButton {
+  /* border: 1px solid green; */
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nextIcon {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #373636;
+}
+.nextIconArrow {
+  z-index: 100;
+  width: 1.4rem;
+  height: 1.3rem;
+}
+.rectangle {
+  position: absolute;
+  top: 2.9rem;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.businessman {
+  position: relative;
+  top: -3.5rem;
+  height: 26rem;
+  width: 100%;
+  /* border: 1px solid BLUE; */
+
+  z-index: 100;
+}
