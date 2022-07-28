@@ -13,15 +13,9 @@ const YourMobileContents = ({ formData, setFormData }) => {
             setFormData({ ...formData, countryCode: e.target.value })
           }
         >
-          <option value="select">
-            <div>Select</div>
-          </option>
-          <option value="+91">
-            <div>(+91)</div>
-          </option>
-          <option value="+92">
-            <div>(+92)</div>
-          </option>
+          <option value="select">Select</option>
+          <option value="+91">(+91)</option>
+          <option value="+92">(+92)</option>
         </select>
         <input
           className="mobileInputNumber"

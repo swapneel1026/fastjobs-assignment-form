@@ -22,8 +22,8 @@ const ReachYou = ({ formData, setFormData }) => {
       <h1 className="heading-title">Where can we reach you?</h1>
       <input
         type="email"
-        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
-        required
+        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+        required=""
         placeholder="Enter your email id"
         value={formData.email}
         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
